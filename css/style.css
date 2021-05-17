@@ -30,6 +30,18 @@ a {
 }
 
 /*** BANNER ***/
+.banner {
+  color: #ffffff;
+  font-size: 16px;
+  background-image: url(../img/banner_desktop.webp),
+    url(../img/banner_desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 481px;
+}
+
+/*** DESTAQUE ***/
 .destaque {
   /* background-image: url(../img/fundo-principal.jpg); */
   background-image: url(../img/banner_varigold.webp),
@@ -41,6 +53,15 @@ a {
 }
 
 @media (max-width: 584px) {
+  .banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/fundo.webp), url(../img/fundo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+    padding: 0 0 2rem;
+  }
   .destaque {
     background-image: url(../img/banner_varigold_mobile.webp),
       url(../img/banner_varigold_mobile.png);
