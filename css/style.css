@@ -41,6 +41,21 @@ a {
   height: 481px;
 }
 
+/*** DESTAQUE VERMELHO ***/
+.destaque-vermelho {
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 1rem 0 1rem;
+}
+
+.destaque-vermelho h1 {
+  margin: 0;
+  font-size: clamp(26px, 3vw, 40px);
+  line-height: clamp(32px, 3vw, 46px);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 /*** DESTAQUE ***/
 .destaque {
   /* background-image: url(../img/fundo-principal.jpg); */
@@ -62,6 +77,11 @@ a {
     height: auto;
     padding: 0 0 2rem;
   }
+
+  .destaque-vermelho {
+    padding: 0.5rem 0 0.5rem;
+  }
+
   .destaque {
     background-image: url(../img/banner_varigold_mobile.webp),
       url(../img/banner_varigold_mobile.png);
