@@ -1,0 +1,49 @@
+* {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+  box-shadow: unset !important;
+}
+
+.btn.focus,
+.btn:focus {
+  outline: unset !important;
+  box-shadow: unset !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+a {
+  color: unset !important;
+  text-decoration: none !important;
+  background-color: transparent !important;
+}
+
+/*** BANNER ***/
+.destaque {
+  /* background-image: url(../img/fundo-principal.jpg); */
+  background-image: url(../img/banner_varigold.webp),
+    url(../img/banner_varigold.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  height: 266px;
+}
+
+@media (max-width: 584px) {
+  .destaque {
+    background-image: url(../img/banner_varigold_mobile.webp),
+      url(../img/banner_varigold_mobile.png);
+    height: 160px;
+  }
+}
