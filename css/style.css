@@ -29,6 +29,25 @@ a {
   background-color: transparent !important;
 }
 
+/*** BOTOES ***/
+
+.botao {
+  border-radius: 5px;
+  /* box-shadow: 0px 10px 19px 1px rgb(0 0 0 / 30%); */
+  max-width: 80%;
+  color: #ffffff;
+  height: 50px;
+  margin: 0 auto;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.botao-claregold {
+  background-color: #7b3876;
+  border: 2px solid #7b3876;
+}
+
 /*** BANNER ***/
 .banner {
   color: #ffffff;
@@ -56,11 +75,11 @@ a {
   text-transform: uppercase;
 }
 
-/*** DESTAQUE ***/
+/*** DESTAQUE CELLU ***/
 .destaque {
   /* background-image: url(../img/fundo-principal.jpg); */
-  background-image: url(../img/banner_varigold.webp),
-    url(../img/banner_varigold.png);
+  background-image: url(../img/banner_cellugold.webp),
+    url(../img/banner_cellugold.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
@@ -89,7 +108,7 @@ a {
 }
 
 .kits h4 {
-  margin: auto auto;
+  margin: 0 auto;
   font-size: 20px;
   text-transform: uppercase;
   margin: 0;
@@ -114,7 +133,6 @@ a {
   color: #ffffff;
   font-weight: bolder;
   margin-bottom: 3px;
-  margin-top: 6px;
 }
 
 .off {
@@ -125,7 +143,7 @@ a {
 
 .trofeu {
   line-height: 100%;
-  font-size: 40px;
+  font-size: 34px;
   color: #ffffff;
 }
 
@@ -269,8 +287,8 @@ a {
   }
 
   .destaque {
-    background-image: url(../img/banner_varigold_mobile.webp),
-      url(../img/banner_varigold_mobile.png);
+    background-image: url(../img/banner_cellugold_mobile.webp),
+      url(../img/banner_cellugold_mobile.png);
     height: 160px;
   }
 }

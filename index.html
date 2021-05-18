@@ -16,6 +16,14 @@
       crossorigin="anonymous"
     />
 
+    <!-- FONTAWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
 
@@ -142,8 +150,8 @@
     <section class="destaque d-block d-sm-none"></section>
     <!-- END DESTAQUE MOBILE  -->
 
-    <!-- START KITS -->
-    <section class="kits">
+    <!-- START KITS CELLU -->
+    <section class="kits kits-cellu">
       <div class="container">
         <div class="row text-center pb-4">
           <div class="col-md-12">
@@ -155,18 +163,11 @@
             <div class="row justify-content-center">
               <!-- KIT 3 -->
               <div class="col-lg-4 pb-5 pb-lg-0">
-                <a href="<?php echo $kit3_claregold ?>">
+                <a href="<?php echo $kit3_cellugold ?>">
                   <div class="card">
                     <div class="card-body card-cor-fundo-kits text-center">
                       <div
-                        class="
-                          row
-                          d-flex
-                          justify-content-center
-                          align-items-center
-                          no-gutters
-                          bg-escuro
-                        "
+                        class="row d-flex justify-content-center align-items-center no-gutters bg-escuro"
                       >
                         <div class="col-2 col-md-2 bg-roxo py-2">
                           <div class="row no-gutters">
@@ -181,7 +182,7 @@
                           </div>
                         </div>
                         <div class="col-10 col-md-10 bg-escuro">
-                          <div class="row no-gutters">
+                          <div class="row d-flex align-items-center no-gutters">
                             <div class="col text-right">
                               <i class="fas fa-trophy-alt trofeu"></i>
                             </div>
@@ -204,13 +205,14 @@
                         </div>
                       </div>
                       <h3 class="titulo-kits">
-                        Compre 3 e <span>ganhe +2 grátis</span>
+                        Compre 3 e <span>ganhe +1 grátis</span>
                       </h3>
                       <img
                         width="80%"
                         class="img-fluid py-2"
-                        src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/assets/img/claregold_potes_kit03.webp"
-                        alt="Card image cap"
+                        src="img/cellugold_kit03.webp"
+                        onerror="this.onerror=null; this.src='img/cellugold_kit03.png'"
+                        alt="Compre 3 unidades e ganhe + 1 unidade grátis"
                       />
                       <!-- SETAS E VALORES -->
                       <div
@@ -225,9 +227,9 @@
                         <div class="col-3">
                           <img
                             class="img-fluid blinking seta-esquerda"
-                            src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/assets/img/seta_esquerda.webp"
+                            src="img/seta_esquerda.webp"
                             width="60%"
-                            alt=""
+                            alt="seta piscando"
                           />
                         </div>
                         <div class="col-6">
@@ -244,7 +246,7 @@
                         <div class="col-3">
                           <img
                             class="img-fluid blinking seta-direita"
-                            src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/assets/img/seta_direita.webp"
+                            src="img/seta_direita.webp"
                             width="60%"
                             alt=""
                           />
@@ -255,7 +257,11 @@
                         <div class="col-12">
                           <button
                             type="button"
-                            class="btn btn-lg btn-block botao mb-2"
+                            class="
+                              btn btn-lg btn-block
+                              botao botao-claregold
+                              mb-2
+                            "
                           >
                             Comprar Agora
                           </button>
@@ -275,32 +281,9 @@
               </div>
               <!-- KIT 2 -->
               <div class="col-lg-4 pb-5 pb-lg-0">
-                <a href="<?php echo $kit2_claregold ?>">
+                <a href="<?php echo $kit2_cellugold ?>">
                   <div class="card">
                     <div class="card-body card-cor-fundo-kits text-center">
-                      <!-- <div
-                          class="row d-flex justify-content-center align-items-center no-gutters bg-cinza"
-                        >
-                          <div class="col-2 col-md-2 bg-roxo p-2">
-                            <div class="row no-gutters">
-                              <div class="col-md-12">
-                                <p class="percentual-desconto">33%</p>
-                              </div>
-                            </div>
-                            <div class="row no-gutters">
-                              <div class="col-md-12">
-                                <p class="off">OFF</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-10 p-2">
-                            <div class="row no-gutters">
-                              <div class="col">
-                                <h4>Clareamento Intenso</h4>
-                              </div>
-                            </div>
-                          </div>
-                        </div> -->
                       <div
                         class="
                           row
@@ -332,13 +315,14 @@
                         </div>
                       </div>
                       <h3 class="titulo-kits">
-                        Compre 2 e <span>ganhe +1 grátis</span>
+                        Compre 2 Cellugold <span></span>
                       </h3>
                       <img
                         width="80%"
                         class="img-fluid py-2"
-                        src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/assets/img/claregold_potes_kit02.webp"
-                        alt="Card image cap"
+                        src="img/cellugold_kit02.webp"
+                        onerror="this.onerror=null; this.src='img/cellugold_kit02.png'"
+                        alt="Compre 2 Cellugold"
                       />
                       <!-- SETAS E VALORES -->
                       <div
@@ -353,7 +337,7 @@
                         <div class="col-3">
                           <img
                             class="img-fluid blinking seta-esquerda"
-                            src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/assets/img/seta_esquerda.webp"
+                            src="img/seta_esquerda.webp"
                             width="60%"
                             alt=""
                           />
@@ -372,7 +356,7 @@
                         <div class="col-3">
                           <img
                             class="img-fluid blinking seta-direita"
-                            src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/assets/img/seta_direita.webp"
+                            src="img/seta_direita.webp"
                             width="60%"
                             alt=""
                           />
@@ -383,7 +367,11 @@
                         <div class="col-12">
                           <button
                             type="button"
-                            class="btn btn-lg btn-block botao mb-2"
+                            class="
+                              btn btn-lg btn-block
+                              botao botao-claregold
+                              mb-2
+                            "
                           >
                             Comprar Agora
                           </button>
@@ -403,7 +391,7 @@
               </div>
               <!-- KIT 1 -->
               <div class="col-lg-4">
-                <a href="<?php echo $kit1_claregold ?>">
+                <a href="<?php echo $kit1_cellugold ?>">
                   <div class="card">
                     <div class="card-body card-cor-fundo-kits text-center">
                       <div
@@ -436,12 +424,13 @@
                           </div>
                         </div>
                       </div>
-                      <h3 class="titulo-kits">Leve 1 Claregold</h3>
+                      <h3 class="titulo-kits">Leve 1 Cellugold</h3>
                       <img
                         width="80%"
                         class="img-fluid py-2"
-                        src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/assets/img/claregold_potes_kit01.webp"
-                        alt="Card image cap"
+                        src="img/cellugold_kit01.webp"
+                        onerror="this.onerror=null; this.src='img/cellugold_kit01.png'"
+                        alt="Leve 1 Cellugold"
                       />
                       <!-- SETAS E VALORES -->
                       <div
@@ -456,7 +445,8 @@
                         <div class="col-3">
                           <img
                             class="img-fluid blinking seta-esquerda"
-                            src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/assets/img/seta_esquerda.webp"
+                            src="img/seta_esquerda.webp"
+                            onerror="this.onerror=null; this.src='img/seta_esquerda.png'"
                             width="60%"
                             alt=""
                           />
@@ -475,7 +465,8 @@
                         <div class="col-3">
                           <img
                             class="img-fluid blinking seta-direita"
-                            src="https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/assets/img/seta_direita.webp"
+                            src="img/seta_direita.webp"
+                            onerror="this.onerror=null; this.src='img/seta_esquerda.png'"
                             width="60%"
                             alt=""
                           />
@@ -486,7 +477,11 @@
                         <div class="col-12">
                           <button
                             type="button"
-                            class="btn btn-lg btn-block botao mb-2"
+                            class="
+                              btn btn-lg btn-block
+                              botao botao-claregold
+                              mb-2
+                            "
                           >
                             Comprar Agora
                           </button>
