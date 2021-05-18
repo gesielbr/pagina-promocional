@@ -75,15 +75,22 @@ a {
   text-transform: uppercase;
 }
 
-/*** DESTAQUE CELLU ***/
+/*** DESTAQUES ***/
 .destaque {
-  /* background-image: url(../img/fundo-principal.jpg); */
-  background-image: url(../img/banner_cellugold.webp),
-    url(../img/banner_cellugold.png);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: contain;
+  background-size: cover;
   height: 260px;
+}
+
+.destaque-cellugold {
+  background-image: url(../img/banner_cellugold.webp),
+    url(../img/banner_cellugold.png);
+}
+
+.destaque-claregold {
+  background-image: url(../img/banner_claregold.webp),
+    url(../img/banner_claregold.png);
 }
 
 /***** KITS *******/
@@ -286,9 +293,14 @@ a {
     padding: 0.5rem 0 0.5rem;
   }
 
-  .destaque {
+  .destaque-cellugold {
     background-image: url(../img/banner_cellugold_mobile.webp),
       url(../img/banner_cellugold_mobile.png);
     height: 160px;
+  }
+
+  .destaque-claregold {
+    background-image: url(../img/banner_claregold_mobile.webp),
+      url(../img/banner_claregold_mobile.png);
   }
 }
