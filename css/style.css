@@ -93,6 +93,11 @@ a {
     url(../img/banner_claregold.png);
 }
 
+.destaque-lift-gold {
+  background-image: url(../img/banner_liftgold.webp),
+    url(../img/banner_liftgold.png);
+}
+
 /***** KITS *******/
 
 .kits {
@@ -302,5 +307,10 @@ a {
   .destaque-claregold {
     background-image: url(../img/banner_claregold_mobile.webp),
       url(../img/banner_claregold_mobile.png);
+  }
+
+  .destaque-lift-gold {
+    background-image: url(../img/banner_liftgold_mobile.webp),
+      url(../img/banner_liftgold_mobile.png);
   }
 }
