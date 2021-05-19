@@ -98,6 +98,11 @@ a {
     url(../img/banner_liftgold.png);
 }
 
+.destaque-q10-gold {
+  background-image: url(../img/banner_q10gold.webp),
+    url(../img/banner_q10gold.png);
+}
+
 /***** KITS *******/
 
 .kits {
@@ -312,5 +317,10 @@ a {
   .destaque-lift-gold {
     background-image: url(../img/banner_liftgold_mobile.webp),
       url(../img/banner_liftgold_mobile.png);
+  }
+
+  .destaque-q10-gold {
+    background-image: url(../img/banner_q10gold_mobile.webp),
+      url(../img/img/banner_q10gold_mobile.png);
   }
 }
