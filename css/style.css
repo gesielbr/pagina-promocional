@@ -103,6 +103,10 @@ a {
     url(../img/banner_q10gold.png);
 }
 
+.destaque-varigold {
+  background-image: url(../img/banner_varigold.webp),
+    url(../img/banner_varigold.png);
+}
 /***** KITS *******/
 
 .kits {
@@ -321,6 +325,11 @@ a {
 
   .destaque-q10-gold {
     background-image: url(../img/banner_q10gold_mobile.webp),
-      url(../img/img/banner_q10gold_mobile.png);
+      url(../img/banner_q10gold_mobile.png);
+  }
+
+  .destaque-varigold {
+    background-image: url(../img/banner_varigold_mobile.webp),
+      url(../img/banner_varigold_mobile.png);
   }
 }
