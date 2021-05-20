@@ -327,6 +327,11 @@ a {
   line-height: 100%;
 }
 
+/* ANVISA */
+.anvisa{
+  padding: 2rem 0 2rem;
+}
+
 @media (max-width: 584px) {
   .banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
