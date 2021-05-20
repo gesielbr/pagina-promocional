@@ -110,10 +110,11 @@ a {
 /***** KITS *******/
 
 .kits {
-  background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/assets/img/fundo_desktop_03-05-08-11.webp);
+  /* background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/claregold/img/assets/img/fundo_desktop_03-05-08-11.webp); */
+  background-color: #ffffff;
   background-position: center center;
   background-size: cover;
-  padding: 2rem 0 2rem;
+  padding: 3rem 0 7rem;
   color: #000000;
 }
 
