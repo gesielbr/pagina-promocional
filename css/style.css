@@ -333,6 +333,13 @@ a {
   padding: 2rem 0 2rem;
 }
 
+.anvisa h2 {
+  font-size: clamp(20px, 3vw, 30px);
+  line-height: clamp(20px, 3vw, 38px);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 /***** PERGUNSTAS FREQUENTES *******/
 .perguntas-frequentes {
   font-family: "Roboto", sans-serif;
