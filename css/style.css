@@ -329,8 +329,173 @@ a {
 }
 
 /* ANVISA */
-.anvisa{
+.anvisa {
   padding: 2rem 0 2rem;
+}
+
+/***** PERGUNSTAS FREQUENTES *******/
+.perguntas-frequentes {
+  font-family: "Roboto", sans-serif;
+  padding: 2rem 0 2rem;
+  background-color: #fefefe;
+}
+
+.perguntas-frequentes h2 {
+  font-size: clamp(20px, 3vw, 36px);
+  line-height: clamp(20px, 3vw, 36px);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/***** ACORDION *******/
+
+.btn-link {
+  width: 100%;
+  color: #000000 !important;
+  font-weight: bold !important;
+  text-align: left !important;
+  text-decoration: none !important;
+}
+
+.btn-link:after {
+  content: "\2212";
+  width: 35px;
+  font-size: 25px;
+  text-align: center;
+  right: 5px;
+  top: 5px;
+  position: absolute;
+  /* background-color: #e8eeff; */
+  color: #5a5a5a;
+}
+
+.bordas-accordion {
+  border: none !important;
+  border-bottom: 1px solid #d4d4d4 !important;
+  border-left: 1px solid #d4d4d4 !important;
+  border-right: 1px solid #d4d4d4 !important;
+  border-radius: 0 !important;
+}
+
+.bordas-accordion:first-child {
+  border-top: 1px solid #d4d4d4 !important;
+}
+
+.bordas-accordion:last-child {
+  border-bottom: 1px solid #d4d4d4 !important;
+}
+
+.accordion {
+  background-color: none !important;
+  border: none !important;
+  background-color: #ffffff !important;
+}
+
+.btn-link.collapsed:after {
+  content: "\002B";
+  color: #5a5a5a;
+}
+
+.conteudo-acordion {
+  background-color: #f9f9f9 !important;
+}
+/********** SELOS ************/
+
+.selos {
+  padding: 2rem 0 2rem;
+}
+
+/********** RODAPE ************/
+
+#rodape {
+  text-align: center;
+  background-color: #f9f9f9;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+#rodape h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.img-rodape {
+  width: 100%;
+  max-width: 180px;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+.whats {
+  width: 100%;
+  max-width: 200px;
+}
+
+.correios {
+  max-width: 150px;
+}
+
+.telefone {
+  margin-bottom: 2px;
+}
+
+.email {
+  margin-bottom: 2px;
+}
+
+.termos {
+  margin-bottom: 0;
+}
+
+.trocas {
+  margin-top: 0;
+}
+
+.copyright {
+  font-size: 14px;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+/********** WHATS ROLANTE ***************/
+
+#whatsapp-rolante {
+  text-align: right;
+  position: fixed;
+  /* z-index: 10000; */
+  bottom: 10px;
+  right: 0px;
+}
+/********** PC ***************/
+
+@media (min-width: 768px) {
+  .botao-whats {
+    width: 20%;
+  }
+}
+
+/********** MOBILE ***************/
+
+@media (max-width: 768px) {
+  .botao-whats {
+    width: 15%;
+  }
+}
+
+@media (max-width: 584px) {
+  .botao-topo {
+    font-size: 20px;
+  }
+  .topo img {
+    max-width: 80px;
+  }
+  .kits .campeao {
+    max-width: 150px;
+  }
+  .valor {
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 584px) {
