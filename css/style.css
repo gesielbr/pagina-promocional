@@ -538,4 +538,8 @@ a {
     background-image: url(../img/banner_varigold_mobile.webp),
       url(../img/banner_varigold_mobile.png);
   }
+
+  .kits {
+    padding: 3rem 0 3rem;
+  }
 }
