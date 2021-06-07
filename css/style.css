@@ -84,28 +84,28 @@ a {
 }
 
 .destaque-cellugold {
-  background-image: url(../img/banner_cellugold.webp),
-    url(../img/banner_cellugold.png);
+  background-image: url(../img/banner_cellugold_01.webp),
+    url(../img/banner_cellugold_01.png);
 }
 
 .destaque-claregold {
-  background-image: url(../img/banner_claregold.webp),
-    url(../img/banner_claregold.png);
+  background-image: url(../img/banner_claregold_01.webp),
+    url(../img/banner_claregold_01.png);
 }
 
 .destaque-lift-gold {
-  background-image: url(../img/banner_liftgold.webp),
-    url(../img/banner_liftgold.png);
+  background-image: url(../img/banner_liftgold_01.webp),
+    url(../img/banner_liftgold_01.png);
 }
 
 .destaque-q10-gold {
-  background-image: url(../img/banner_q10gold.webp),
-    url(../img/banner_q10gold.png);
+  background-image: url(../img/banner_q10gold_01.webp),
+    url(../img/banner_q10gold_01.png);
 }
 
 .destaque-varigold {
-  background-image: url(../img/banner_varigold.webp),
-    url(../img/banner_varigold.png);
+  background-image: url(../img/banner_varigold_01.webp),
+    url(../img/banner_varigold_01.png);
 }
 
 /***** KITS *******/
@@ -331,6 +331,7 @@ a {
   overflow: hidden;
   border: 1px solid #040c26;
   background-color: #040c26;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
 }
 
 .bg-red {
@@ -481,57 +482,11 @@ a {
 .depoimentos {
   font-family: "Roboto", sans-serif;
   padding: 2rem 0 2rem;
-  background: rgba(250, 250, 250, 1);
-  background: -moz-linear-gradient(
-    top,
-    rgba(250, 250, 250, 1) 0%,
-    rgba(246, 246, 246, 1) 53%,
-    rgba(255, 255, 255, 1) 81%,
-    rgba(255, 255, 255, 1) 100%
-  );
-  background: -webkit-gradient(
-    left top,
-    left bottom,
-    color-stop(0%, rgba(250, 250, 250, 1)),
-    color-stop(53%, rgba(246, 246, 246, 1)),
-    color-stop(81%, rgba(255, 255, 255, 1)),
-    color-stop(100%, rgba(255, 255, 255, 1))
-  );
-  background: -webkit-linear-gradient(
-    top,
-    rgba(250, 250, 250, 1) 0%,
-    rgba(246, 246, 246, 1) 53%,
-    rgba(255, 255, 255, 1) 81%,
-    rgba(255, 255, 255, 1) 100%
-  );
-  background: -o-linear-gradient(
-    top,
-    rgba(250, 250, 250, 1) 0%,
-    rgba(246, 246, 246, 1) 53%,
-    rgba(255, 255, 255, 1) 81%,
-    rgba(255, 255, 255, 1) 100%
-  );
-  background: -ms-linear-gradient(
-    top,
-    rgba(250, 250, 250, 1) 0%,
-    rgba(246, 246, 246, 1) 53%,
-    rgba(255, 255, 255, 1) 81%,
-    rgba(255, 255, 255, 1) 100%
-  );
-  background: linear-gradient(
-    to bottom,
-    rgba(250, 250, 250, 1) 0%,
-    rgba(246, 246, 246, 1) 53%,
-    rgba(255, 255, 255, 1) 81%,
-    rgba(255, 255, 255, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#ffffff', GradientType=0);
+  background-color: #ffffff;
 }
 
-.dotted {
-  border: 2px dotted#d5426c !important;
-  background-color: #f7f7f7 !important;
-  padding: 10px 30px 30px !important;
+.depoimentos .dotted {
+  border: 2px dotted#d5426c;
   font-style: italic;
   margin-bottom: 20px;
 }
@@ -561,14 +516,18 @@ a {
   margin-top: 0;
 }
 
-.card h3 {
+.depoimentos .card-body {
+  padding: 0.8rem;
+}
+
+.depoimentos .card h3 {
   color: #d5426c;
   text-transform: uppercase;
   font-weight: bolder;
   font-size: 24px;
 }
 
-.card span {
+.depoimentos .card span {
   font-weight: normal;
 }
 
