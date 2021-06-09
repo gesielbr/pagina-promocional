@@ -757,29 +757,29 @@ a {
   }
 
   .destaque-cellugold {
-    background-image: url(../img/banner_cellugold_mobile.webp),
-      url(../img/banner_cellugold_mobile.png);
+    background-image: url(../img/banner_cellugold_mobile_01.webp),
+      url(../img/banner_cellugold_01_mobile.png);
     height: 160px;
   }
 
   .destaque-claregold {
-    background-image: url(../img/banner_claregold_mobile.webp),
-      url(../img/banner_claregold_mobile.png);
+    background-image: url(../img/banner_claregold_mobile_01.webp),
+      url(../img/banner_claregold_mobile_01.png);
   }
 
   .destaque-lift-gold {
-    background-image: url(../img/banner_liftgold_mobile.webp),
-      url(../img/banner_liftgold_mobile.png);
+    background-image: url(../img/banner_liftgold_mobile_01.webp),
+      url(../img/banner_liftgold_mobile_01.png);
   }
 
   .destaque-q10-gold {
-    background-image: url(../img/banner_q10gold_mobile.webp),
-      url(../img/banner_q10gold_mobile.png);
+    background-image: url(../img/banner_q10gold_mobile_01.webp),
+      url(../img/banner_q10gold_mobile_01.png);
   }
 
   .destaque-varigold {
-    background-image: url(../img/banner_varigold_mobile.webp),
-      url(../img/banner_varigold_mobile.png);
+    background-image: url(../img/banner_varigold_mobile_01.webp),
+      url(../img/banner_varigold_mobile_01.png);
   }
 
   .kits {
