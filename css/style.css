@@ -57,7 +57,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 560px;
+  height: 400px;
 }
 
 /*** DESTAQUE VERMELHO ***/
@@ -763,27 +763,31 @@ a {
   .destaque-cellugold {
     background-image: url(../img/banner_cellugold_mobile_01.webp),
       url(../img/banner_cellugold_01_mobile.png);
-    height: 160px;
+    height: 180px;
   }
 
   .destaque-claregold {
     background-image: url(../img/banner_claregold_mobile_01.webp),
       url(../img/banner_claregold_mobile_01.png);
+      height: 180px;
   }
 
   .destaque-lift-gold {
     background-image: url(../img/banner_liftgold_mobile_01.webp),
       url(../img/banner_liftgold_mobile_01.png);
+      height: 180px;
   }
 
   .destaque-q10-gold {
     background-image: url(../img/banner_q10gold_mobile_01.webp),
       url(../img/banner_q10gold_mobile_01.png);
+      height: 180px;
   }
 
   .destaque-varigold {
     background-image: url(../img/banner_varigold_mobile_01.webp),
       url(../img/banner_varigold_mobile_01.png);
+      height: 180px;
   }
 
   .kits {
