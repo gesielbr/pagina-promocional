@@ -52,8 +52,8 @@ a {
 .banner {
   color: #ffffff;
   font-size: 16px;
-  background-image: url(../img/banner_desktop.webp),
-    url(../img/banner_desktop.png);
+  background-image: url(../img/banner_desktop_01.webp),
+    url(../img/banner_desktop_01.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
