@@ -436,12 +436,15 @@ a {
   font-size: 10px;
   margin: 0;
   line-height: 100%;
+  margin-bottom: 0.3rem;
 }
+
 .kits-mobile .final {
   text-decoration: none;
   font-weight: bolder;
   text-transform: uppercase;
   font-size: 14px;
+  margin-bottom: 0.3rem;
 }
 
 .kits-mobile .valor-novo {
@@ -450,7 +453,7 @@ a {
   font-size: 26px;
   margin: 0;
   line-height: 100%;
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.3rem;
 }
 
 .kits-mobile .parcelamento {
