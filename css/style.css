@@ -52,8 +52,8 @@ a {
 .banner {
   color: #ffffff;
   font-size: 16px;
-  background-image: url(../img/banner_desktop_01.webp),
-    url(../img/banner_desktop_01.png);
+  background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/beautygold/img/banner_desktop_01.webp),
+    url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/beautygold/img/banner_desktop_01.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -84,28 +84,28 @@ a {
 }
 
 .destaque-cellugold {
-  background-image: url(../img/banner_cellugold_03.webp),
-    url(../img/banner_cellugold_03.png);
+  background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/beautygold/img/banner_cellugold_03.webp),
+    url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/beautygold/img/banner_cellugold_03.png);
 }
 
 .destaque-claregold {
-  background-image: url(../img/banner_claregold_02.png),
-    url(../img/banner_claregold_02.png);
+  background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/beautygold/img/banner_claregold_02.png),
+    url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/beautygold/img/banner_claregold_02.png);
 }
 
 .destaque-lift-gold {
-  background-image: url(../img/banner_liftgold_02.webp),
-    url(../img/banner_liftgold_02.png);
+  background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/beautygold/img/banner_liftgold_02.webp),
+    url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/beautygold/img/banner_liftgold_02.png);
 }
 
 .destaque-q10-gold {
-  background-image: url(../img/banner_q10gold_02.png),
-    url(../img/banner_q10gold_02.png);
+  background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/beautygold/img/banner_q10gold_02.png),
+    url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/beautygold/img/banner_q10gold_02.png);
 }
 
 .destaque-varigold {
-  background-image: url(../img/banner_varigold_02.webp),
-    url(../img/banner_q10gold_02.png);
+  background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/beautygold/img/banner_varigold_02.webp),
+    url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/beautygold/img/banner_q10gold_02.png);
 }
 
 /***** KITS *******/
@@ -769,7 +769,7 @@ a {
 @media (max-width: 584px) {
   .banner {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url(../img/fundo.webp), url(../img/fundo.png);
+      url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/beautygold/img/fundo.webp), url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/beautygold/img/fundo.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -782,32 +782,32 @@ a {
   }
 
   .destaque-cellugold {
-    background-image: url(../img/banner_cellugold_mobile_01.webp),
-      url(../img/banner_cellugold_01_mobile.png);
+    background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/beautygold/img/banner_cellugold_mobile_01.webp),
+      url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/beautygold/img/banner_cellugold_01_mobile.png);
     height: 180px;
   }
 
   .destaque-claregold {
-    background-image: url(../img/banner_claregold_mobile_01.webp),
-      url(../img/banner_claregold_mobile_01.png);
+    background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/beautygold/img/banner_claregold_mobile_01.webp),
+      url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/beautygold/img/banner_claregold_mobile_01.png);
       height: 180px;
   }
 
   .destaque-lift-gold {
-    background-image: url(../img/banner_liftgold_mobile_01.webp),
-      url(../img/banner_liftgold_mobile_01.png);
+    background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/beautygold/img/banner_liftgold_mobile_01.webp),
+      url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/beautygold/img/banner_liftgold_mobile_01.png);
       height: 180px;
   }
 
   .destaque-q10-gold {
-    background-image: url(../img/banner_q10gold_mobile_01.webp),
-      url(../img/banner_q10gold_mobile_01.png);
+    background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/beautygold/img/banner_q10gold_mobile_01.webp),
+      url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/beautygold/img/banner_q10gold_mobile_01.png);
       height: 180px;
   }
 
   .destaque-varigold {
-    background-image: url(../img/banner_varigold_mobile_01.webp),
-      url(../img/banner_varigold_mobile_01.png);
+    background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/beautygold/img/banner_varigold_mobile_01.webp),
+      url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/beautygold/img/banner_varigold_mobile_01.png);
       height: 180px;
   }
 
