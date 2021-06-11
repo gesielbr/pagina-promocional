@@ -57,7 +57,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 560px;
 }
 
 /*** DESTAQUE VERMELHO ***/
@@ -89,8 +89,8 @@ a {
 }
 
 .destaque-claregold {
-  background-image: url(../img/banner_claregold_01.webp),
-    url(../img/banner_claregold_01.png);
+  background-image: url(../img/banner_claregold_02.png),
+    url(../img/banner_claregold_02.png);
 }
 
 .destaque-lift-gold {
@@ -99,13 +99,13 @@ a {
 }
 
 .destaque-q10-gold {
-  background-image: url(../img/banner_q10gold_01.webp),
+  background-image: url(../img/banner_q10gold_02.png),
     url(../img/banner_q10gold_01.png);
 }
 
 .destaque-varigold {
   background-image: url(../img/banner_varigold_01.webp),
-    url(../img/banner_varigold_01.png);
+    url(../img/banner_q10gold_02.png);
 }
 
 /***** KITS *******/
@@ -436,7 +436,7 @@ a {
   font-size: 10px;
   margin: 0;
   line-height: 100%;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.2rem;
 }
 
 .kits-mobile .final {
@@ -453,7 +453,7 @@ a {
   font-size: 26px;
   margin: 0;
   line-height: 100%;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.4rem;
 }
 
 .kits-mobile .parcelamento {
