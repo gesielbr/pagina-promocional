@@ -84,8 +84,8 @@ a {
 }
 
 .destaque-cellugold {
-  background-image: url(../img/banner_cellugold_01.webp),
-    url(../img/banner_cellugold_01.png);
+  background-image: url(../img/banner_cellugold_02.webp),
+    url(../img/banner_cellugold_02.png);
 }
 
 .destaque-claregold {
@@ -94,17 +94,17 @@ a {
 }
 
 .destaque-lift-gold {
-  background-image: url(../img/banner_liftgold_01.webp),
-    url(../img/banner_liftgold_01.png);
+  background-image: url(../img/banner_liftgold_02.webp),
+    url(../img/banner_liftgold_02.png);
 }
 
 .destaque-q10-gold {
   background-image: url(../img/banner_q10gold_02.png),
-    url(../img/banner_q10gold_01.png);
+    url(../img/banner_q10gold_02.png);
 }
 
 .destaque-varigold {
-  background-image: url(../img/banner_varigold_01.webp),
+  background-image: url(../img/banner_varigold_02.webp),
     url(../img/banner_q10gold_02.png);
 }
 
@@ -344,6 +344,7 @@ a {
   text-transform: uppercase;
   font-size: 14px;
   margin: 0;
+  margin-top: 0.2rem;
 }
 
 .horario {
