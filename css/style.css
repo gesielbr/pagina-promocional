@@ -355,6 +355,10 @@ a {
   margin-bottom: 0;
 }
 
+.kits-arredondados h1 {
+  font-weight: bold;
+}
+
 .kits-arredondados h5 {
   font-weight: bold;
   text-transform: uppercase;
@@ -379,6 +383,16 @@ a {
   margin-top: 0;
   line-height: 100%;
   margin-bottom: 0.6rem;
+}
+
+.kits-arredondados .valor-antigo {
+  text-decoration: line-through;
+  margin-bottom: 4px;
+}
+
+.kits-arredondados .final{
+  text-decoration: none;
+  font-weight: bolder;
 }
 
 .botao {
@@ -460,10 +474,6 @@ a {
   line-height: 32px;
   margin-left: -10px;
   margin-bottom: 0;
-}
-
-.valor-antigo {
-  text-decoration: line-through;
 }
 
 /**** CONTADOR ****/
